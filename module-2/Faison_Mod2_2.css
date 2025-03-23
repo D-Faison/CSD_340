@@ -39,19 +39,23 @@ a:link{
     font-size: 1.25em;
     font-weight: bold;
     color: #4f3674;
-    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
 }
 
 a:visited{
     text-decoration-line: underline;
     text-decoration-style: double;
-    color: darkblue;
+    color: black;
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration-line: underline;
     color: #4f3674;
     background-color: #d6a800;
     padding: 5px;
     border-radius: 2px;
+}
+a:active{
+    color: darkcyan;
 }
