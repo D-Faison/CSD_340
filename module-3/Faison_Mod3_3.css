@@ -1,0 +1,18 @@
+/*CSS for Assignment 3.3*/
+
+h1{
+    text-align: center;
+}
+#container{
+    margin-top: 60%;
+}
+#left{
+    width: 45%;
+    float: left;
+}
+
+#right{
+    width: 45%;
+    float: right;
+}
+
