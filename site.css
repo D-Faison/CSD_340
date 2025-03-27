@@ -1,1 +1,60 @@
 /*CSS for index*/
+.macondo-regular {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#container{
+    margin: 50px 100px ;
+}
+
+h1,h2{
+    font-family:"Macondo" ;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px;
+    letter-spacing: 2px;
+    color: #e5ffc0;
+    background-color: #144425 ;
+}
+
+h3,h4{
+    font-family:"Macondo" ;
+    font-size: 25px;
+    padding: 10px;
+    border: solid 1px #144425;
+    letter-spacing: 2px;
+    color: #000000;
+    background-color: #B5D984 ;
+}
+
+ul{
+    list-style-image: url('star.png');
+}
+
+a:link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #144425;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: darkgoldenrod;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: #00b400;
+
+}
+
+a:active{
+    text-decoration: none;
+    color: #8a008a;
+
+}
