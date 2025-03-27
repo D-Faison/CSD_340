@@ -42,13 +42,13 @@ a:link{
 }
 
 a:visited{
-    text-decoration: underline;
+    text-decoration: underline 2px;
     color: darkgoldenrod;
 
 }
 
 a:hover{
-    text-decoration: none;
+    text-decoration: underline 2px;
     color: #00b400;
 
 }
