@@ -3,16 +3,47 @@
 h1{
     text-align: center;
 }
-#container{
-    margin-top: 60%;
+
+h3{
+    font-weight: 500;
 }
+
+ul, li {
+    font-weight: 300;
+}
+
+
+
 #left{
     width: 45%;
     float: left;
+    border:1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+
 }
 
 #right{
     width: 45%;
     float: right;
+    border:1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+    
+}
+
+.right{
+
+    list-style-type: upper-roman;
+}
+
+#bottom{
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    text-align: right;
+    
 }
 
