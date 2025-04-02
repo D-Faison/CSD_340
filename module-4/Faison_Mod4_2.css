@@ -1,0 +1,64 @@
+/*DeJanae Faison Assignment 4.2*/
+.macondo-regular {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#container{
+    margin-top: 50px;
+}
+
+#image-gallery{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+#image-gallery > div {
+    font-family: "Macondo";
+    text-align: center;
+    border: 5px solid #144425;
+    border-radius: 20px;
+    padding: 10px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+h1, h3 {
+    text-align: center;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+a:link{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    padding: 20px;
+    float: right;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #144425;
+}
+
+a:visited{
+    text-decoration: underline 2px;
+    color: darkgoldenrod;
+
+}
+
+a:hover{
+    text-decoration: underline 2px;
+    color: #00b400;
+
+}
+
+a:active{
+    text-decoration: none;
+    color: #8a008a;
+
+}
