@@ -1,1 +1,23 @@
 /*DeJanae Faison Assignment6.2 CSS 4/13/25*/
+
+header{
+    background-image: linear-gradient(firebrick,darkred);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-weight: 400;
+}
+
+#navbar{
+   overflow: hidden;
+   background-color: none ; 
+   border-bottom: solid 15px burlywood;
+}
+
+#navbar.a{
+    float: left;
+    text-decoration: none;
+}
