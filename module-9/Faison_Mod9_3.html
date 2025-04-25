@@ -1,0 +1,77 @@
+<!--DeJanae Faison Assignment2.2 3/23/2025 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Meta Tags-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Module 2 Assignment">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS" >
+        <!--CSS Link-->
+        <link rel="stylesheet" href="Faison_Mod9_3.css">
+
+        <title>CSD 340 Development with HTML and CSS</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Assignment 9.3: JavaScript - Part 1</h1>
+            <h2>Chapter 1: HTML</h2>
+
+            <p class="intro">
+                Hi I am DeJanae; I go by DJ or Deja(like DeJa Vu). I prefer those two
+                rather than my full name. I was born in Michigan but spent 
+                99% of my life in New Jersey. I have a LOT of hobbies, like 3D design,
+                crochet, knitting, game design etc. 
+            </p>
+
+            <p>
+                For my 3D art I use <span class="sentence" id="blender" style="color: orange; font-weight: bold; text-decoration: underline;" >___1___</span>
+                to model enviroments, food and characters. To color the model, some use external programs 
+                like Adobe Substance painter but for personal products Blender offers a texture 
+                painting space that i feel works just as good. I often do small animations, like 
+                turntable loops, blinking/breathing and particle effects. Which I enjoy since,
+                modeling, weight painting, UV editing, and making the bones and animations can be a lot.
+            </p>
+
+            <p>
+                I hope to add my 3D art into future projects i have like in my web design, software design, and game design.
+                My family likes going to the casino often so the machincs behind slot machines really interest me. From the pretty
+                graphics to the math behind how the grand prize rises and so on. So a goal of mine would to have my design and code
+                being used in such a light playful mannor.
+            </p>
+
+            <p>
+                I have been crocheting and knitting for years. It is not a hobby I can say 
+                "I want to make money off of it but they make great presents". <span class="sentence" id="crochetPrimary" style="text-decoration: underline;">___2___</span> though i can do scarves, blankets and other things but I enjoy doing
+                stuffed animals the most.I can only knit scarves so far but I hope to learn how to knit
+                stuffed animals soon as well. Some people confuse the two often. Crochet has <span class="sentence" id="oneStick" style="font-weight: bolder; text-decoration: underline;">__3__</span>;
+                multiple different stitches. Knitting uses <span class="sentence" id="twoSticks" style="font-weight: bolder; text-decoration: underline;">__4__</span> and has only different two stitches.
+            </p>
+
+            <p>
+                <button type="button" onclick="document.getElementById('blender').innerHTML = blenderValue"> Reveal 1</button>
+                <button type="button" onclick="document.getElementById('crochetPrimary').innerHTML = crochetPrimary" >Reveal 2</button>
+                <button type="button" onclick="document.getElementById('oneStick').innerHTML = oneStick" >Reveal 3</button>
+                <button type="button" onclick="document.getElementById('twoSticks').innerHTML = twoSticks" >Reveal 4</button>
+
+            </p>
+
+            <!--Break line-->
+            <hr>
+
+            <div class="address">
+                <a href="https://www.bellevue.edu/">Bellevue University</a>
+                <p>1000 Galvin Road South</p>
+                <p>Bellevue, Nebraska 68005</p>
+            </div>
+            <!--SCRIPT-->
+            <script>
+                var blenderValue = "Blender";
+                var crochetPrimary = "I crochet primarily stuffed animals;";
+                var oneStick = "one 'stick'";
+                var twoSticks = "two sticks";
+            </script>
+
+        </div><!--End of Container-->
+    </body>
+</html>
