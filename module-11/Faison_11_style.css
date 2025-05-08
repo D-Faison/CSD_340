@@ -1,0 +1,127 @@
+/*DeJanae Faison To Do List Style*/
+
+/*Fonts*/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/*Body*/
+  body{
+    background-image: linear-gradient(to right, black, rgb(41, 19, 1),black);
+  }
+
+  h1{
+    padding-top: 20px;
+    font-family: "Press Start 2P", system-ui;
+    color: #FFBB00;
+    font-size: 24px;
+    text-align: center;
+    grid-area: 1 / 1 / 2 / 6;
+  }
+
+  h2,p,button{
+    font-family: "Pixelify Sans", sans-serif;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+  }
+  /*Input section*/
+  .todoInputSection{
+    grid-area: 2 / 1 / 4 / 3;
+    padding: 10%;
+    text-align: center;
+    border: solid 2px;
+    color: #FFBB00;
+    box-shadow: 0px 0px 10px #FFBB00;
+  }
+
+  #userInput{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2%;
+    background-color: #FFBB00;
+    border: none;
+    font-family:"Pixelify Sans", sans-serif ;
+    font-size: 18px;
+    outline: none;
+
+  }
+
+  #userInput:focus{
+    margin-bottom: 3%;
+    border: none;
+    outline: auto;
+    outline-style: double;
+    outline-color: #FFBB00;
+    outline-offset: 5px;
+    outline-width: 2px;
+  }
+
+  ::placeholder{
+
+    color: black;
+  }
+
+
+  .todoInputSection > button{
+    display: inline-block;
+    padding: 10px;
+    margin:5px;
+    font-size: 1em;
+    background-color: black;
+    color: #FFBB00;
+    border: 2px solid #FFBB00;
+    box-shadow: none;
+  }
+
+  .todoInputSection > button:hover{
+    box-shadow: 0px 5px 2px #FFBB00;
+  }
+
+  .todoInputSection > button:active{
+    box-shadow: 5px 2px 2px #FFBB00;
+  }
+
+
+  /*List Container*/
+
+  .listContainer{
+    background-color: none;
+    color: #FFBB00;
+    font-family:"Pixelify Sans", sans-serif ;
+    font-size: 18px;
+    grid-area: 4 / 1 / 6 / 3;
+    border: solid 2px;
+    box-shadow: 0px 0px 10px #FFBB00;
+    font-size: 1.2em;
+  }
+
+/*Display Container*/
+  .displayUserList{
+    background-color: red;
+    grid-area: 2 / 3 / 6 / 6; 
+  }
+
+  .displayUserList > ul {
+    list-style-type: none;
+  }

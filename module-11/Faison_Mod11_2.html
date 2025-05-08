@@ -1,0 +1,56 @@
+<!--DeJanae Faison MOD11 -->
+<!--To Do List-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+            </style>
+        <link rel="stylesheet" href="Faison_11_style.css">
+        
+    </head>
+    <body>
+        <div class="container" >
+
+            <h1>Assignment 11.2: JavaScript - Part 3</h1>
+            <!--Manipulation Section-->
+            <div class="todoInputSection">
+                <h2>**To Do List**</h2>
+                <p>===| Welcome to your To Do List! |===</p>
+                <p>'ADD' to add your typed item to your list.<br> 'DELETE LAST ENTRY' to delete the last item in list. <br> 'DISPLAY' to view in order items in list</p>
+                <input type="text" id="userInput" placeholder="Add task here">
+    
+                <button onclick="addTask()">ADD</button>
+                <button onclick="lastTaskDelete()">DELETE LAST ENTRY</button>
+                <button onclick="displayToDoList()">DISPLAY</button>
+            </div><!--END-->
+    
+            <!--List-->
+            <div class="listContainer">
+                <ul id="userList">
+                    <li>Get Milk</li>
+                    <li>Finish HW</li>
+                    <li>Mow Lawn</li>
+                </ul>
+            </div><!--End of List Container-->
+    
+            <div class="displayUserList">
+                <h2>To Do List: </h2>
+                <ul id="displayList">
+    
+                </ul>
+            </div>
+
+        </div><!--End of Container-->
+
+        
+        <script src="Faison_11_logic.js"></script>
+        
+    </body>
+    <!--Resources:
+    https://cssgrid-generator.netlify.app/ -->
+</html>
