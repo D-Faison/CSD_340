@@ -34,6 +34,8 @@
     grid-area: 1 / 1 / 2 / 6;
   }
 
+  
+
   h2,p,button{
     font-family: "Pixelify Sans", sans-serif;
   }
@@ -114,12 +116,20 @@
     border: solid 2px;
     box-shadow: 0px 0px 10px #FFBB00;
     font-size: 1.2em;
+    padding: 10px;
   }
 
 /*Display Container*/
   .displayUserList{
-    background-color: red;
     grid-area: 2 / 3 / 6 / 6; 
+    background-color: none;
+    color: #FFBB00;
+    font-family:"Pixelify Sans", sans-serif ;
+    border: solid 2px;
+    box-shadow: 0px 0px 10px #FFBB00;
+    font-size: 1.2em;
+    padding: 10px;
+    padding-left: 25px;
   }
 
   .displayUserList > ul {
