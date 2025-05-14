@@ -1,0 +1,72 @@
+/*DeJanae Faison Mod 12 Stylesheet*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,h3{
+    text-align: center;
+    padding: 10px;
+    text-decoration: 4px lightblue underline;
+    text-underline-offset: 10px;
+}
+
+#left{
+    display: grid;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(78, 91, 126);
+}
+
+#left > ol{
+   list-style-type: none; 
+}
+
+button{
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px rgb(109, 164, 182);
+    background-color: lightblue;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+button:hover{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+button:active{
+    padding-top: 20px;
+}
+
+#right{
+    display:grid;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(78, 91, 126);
+}
+
+
+#bottom{
+    width: 100%;
+    margin-top: 300px;
+    text-align: right;
+    
+}
+
+#bottom > a {
+    padding-right: 10%;
+    padding-bottom: 10%;
+    text-decoration: 2px solid underline;
+    color: black;
+}
+
